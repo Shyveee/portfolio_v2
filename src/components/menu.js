@@ -25,21 +25,21 @@ export default function TemporaryDrawer({ scrollToAbout, scrollToTop }) {
   const onglets = [
     {
       name: "Accueuil",
-      emoji: "/up.png",
+      emoji: "up.png",
       onClick: scrollToTop
     },
     {
       name: "À Propos",
-      emoji: "/raising_hand.png",
+      emoji: "raising_hand.png",
       onClick: scrollToAbout
     },
     { name: "Mes projets",
-      emoji: "/laptop.png",
+      emoji: "laptop.png",
       onClick: scrollToAbout
     },
     {
       name: "Me Contacter",
-      emoji: "/pencil.png",
+      emoji: "pencil.png",
       onClick: scrollToAbout
     },
   ];

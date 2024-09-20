@@ -21,7 +21,7 @@ export const Welcome = ({scrollToAbout }) => {
                 }}>
                 <div className="welcome-content">
                     <div className="welcome-upper">
-                        <img className="personal-pic" src="/pfp.png" alt="me"/>
+                        <img className="personal-pic" src="pfp.png" alt="me"/>
                         <div className="texte-welcome">
                             <motion.div
                                 initial={{opacity: 0}}
@@ -30,7 +30,7 @@ export const Welcome = ({scrollToAbout }) => {
                                 <h1>Bonjour, je suis Gaël<span>.</span>B</h1>
                                 <div className="sous-titre">
                                     <p>Etudiant ingénieur en cybersécurité&nbsp;</p>
-                                    <img src="/laptop.png" alt="computer"/>
+                                    <img src="laptop.png" alt="computer"/>
                                 </div>
                                 <SocialsButtons/>
                             </motion.div>
