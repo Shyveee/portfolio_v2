@@ -39,7 +39,7 @@ export default function TemporaryDrawer({ scrollToAbout, scrollToTop }) {
     },
     {
       name: "Me Contacter",
-      emoji: "pencil.png",
+      emoji: "/pencil.png",
       onClick: scrollToAbout
     },
   ];

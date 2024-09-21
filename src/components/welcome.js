@@ -29,8 +29,8 @@ export const Welcome = ({scrollToAbout }) => {
                                 transition={{ease: "easeIn", duration: 1}}>
                                 <h1>Bonjour, je suis Gaël<span>.</span>B</h1>
                                 <div className="sous-titre">
-                                    <p>Etudiant ingénieur en cybersécurité&nbsp;</p>
-                                    <img src="laptop.png" alt="computer"/>
+                                    <p>Etudiant ingénieur en cybersécurité&nbsp;<img src="laptop.png" alt="computer"/></p>
+
                                 </div>
                                 <SocialsButtons/>
                             </motion.div>

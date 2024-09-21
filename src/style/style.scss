@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
+
   .about {
     height: 100vh;
     background: #d7d7d7;
@@ -23,7 +24,8 @@ body {
   align-items: center;
   height: 100px;
   width: 100%;
-  background: black ;
+  background: black;
+
   h1 {
     color: white;
     padding-top: 5px;
@@ -34,6 +36,17 @@ body {
   .Menu {
     margin-right: 50px;
   }
+
+  @media (max-width: 450px) {
+    height: 70px;
+    h1 {
+      padding-top: 0;
+      margin-left: 50px;
+      margin-top: 25px;
+    }
+  }
+
+
 }
 
 .Welcome { //Pour etre en dessous de la navbar
@@ -43,6 +56,7 @@ body {
   justify-content: center;
   align-items: center;
   background: black;
+
   p {
     font-style: italic;
     color: #d7d7d7;
@@ -85,9 +99,13 @@ body {
       justify-content: flex-start;
 
       img {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         margin-top: -20px;
+        @media (max-width: 450px){
+          width: 20px;
+          height: 20px;
+        }
       }
     }
 
@@ -106,6 +124,43 @@ body {
     span {
       color: #606060;
     }
+  }
+
+  @media (max-width: 450px) {
+    justify-content: flex-start;
+    height: calc(100vh - 90px);
+    padding-top: 90px;
+    .welcome-content {
+      margin: 20px 20px 0 20px;
+
+      h1 {
+        font-size: 1.7em;
+      }
+
+      p {
+        font-size: 1.1em;
+        margin-top: 20px;
+      }
+
+      hr {
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+    }
+
+    .welcome-upper {
+      flex-direction: column;
+
+      .personal-pic {
+        display: none;
+      }
+
+      p {
+        margin-top: 0;
+        font-size: 1.3em;
+      }
+    }
+
   }
 
 }

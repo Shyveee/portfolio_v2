@@ -2,6 +2,7 @@ $total-arrows: 3;
 $arrow-line-length: 50px;
 $arrow-line-width: 4px;
 
+
 // arrow animtion + choose direction
 @mixin arrow-transitions($rot: 0deg) {
   transform: translate(-50%, -50%) rotateZ($rot);
@@ -22,6 +23,9 @@ body {
   display: block;
   width: 100px;
   height: 100px;
+  @media (max-width: 450px){
+    height: 60px;
+  }
   position: absolute;
   top: 90%;
   left: 50%;
