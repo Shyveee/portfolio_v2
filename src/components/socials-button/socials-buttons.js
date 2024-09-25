@@ -30,7 +30,7 @@ export const SocialsButtons = () => {
                 whileTap={{scale: 0.98}}
                 style={{x: 0}}>
                 <div className="rootme-button">
-                    <img src="github.png" alt="rootme"/>
+                    <img src="rootme.png" alt="rootme"/>
                     <a href="https://www.root-me.org/Shyve" target="_blank"
                        rel="noreferrer">&ensp;RootMe&nbsp;</a>
                 </div>
