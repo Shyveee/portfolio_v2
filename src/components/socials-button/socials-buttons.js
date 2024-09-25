@@ -20,9 +20,19 @@ export const SocialsButtons = () => {
                 whileTap={{scale: 0.98}}
                 style={{x: 0}}>
                 <div className="github-button">
-                    <img src="github.png" alt="linkedin"/>
+                    <img src="github.png" alt="github"/>
                     <a href="https://github.com/Shyveee" target="_blank"
                        rel="noreferrer">&ensp;GitHub&nbsp;</a>
+                </div>
+            </motion.a>
+            <motion.a
+                whileHover={{scale: 1.05}}
+                whileTap={{scale: 0.98}}
+                style={{x: 0}}>
+                <div className="rootme-button">
+                    <img src="github.png" alt="rootme"/>
+                    <a href="https://www.root-me.org/Shyve" target="_blank"
+                       rel="noreferrer">&ensp;RootMe&nbsp;</a>
                 </div>
             </motion.a>
         
